@@ -1,6 +1,17 @@
 {
-  "extends": [
-    "oclif",
-    "oclif-typescript"
-  ]
+    "extends": [
+        "oclif",
+        "oclif-typescript"
+    ],
+    "rules": {
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "@typescript-eslint/no-inferrable-types": "off"
+    }
 }
