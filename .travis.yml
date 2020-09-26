@@ -12,5 +12,5 @@ script:
 
 
 after_success:
-  - ./node_modules/.bin/nyc report --reporter=json > coverage/coverage.json
+  - ./node_modules/.bin/nyc report --reporter text-lcov > coverage.lcov
   - codecov
