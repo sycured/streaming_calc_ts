@@ -3,29 +3,7 @@ streaming_calc_ts
 
 Bandwidth calculation for streaming server | Rewrite from my original in Python
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![codecov](https://codecov.io/gh/sycured/streaming_calc_ts/branch/main/graph/badge.svg)](https://codecov.io/gh/sycured/streaming_calc_ts)
-
-<!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-# Usage
-<!-- usage -->
-```sh-session
-$ npm install -g streaming_calc_ts
-$ streaming_calc_ts COMMAND
-running command...
-$ streaming_calc_ts (-v|--version|version)
-streaming_calc_ts/0.0.0 darwin-x64 node-v12.18.3
-$ streaming_calc_ts --help
-USAGE
-  $ streaming_calc_ts COMMAND
-...
-```
-<!-- usagestop -->
 # Commands
-<!-- commands -->
 * [`streaming_calc_ts bwserver`](#streaming_calc_ts-bwserver)
 * [`streaming_calc_ts usagebw`](#streaming_calc_ts-usagebw)
 * [`streaming_calc_ts help [COMMAND]`](#streaming_calc_ts-help-command)
@@ -85,4 +63,3 @@ COMMANDS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
-<!-- commandsstop -->
