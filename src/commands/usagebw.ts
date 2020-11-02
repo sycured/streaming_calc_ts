@@ -35,7 +35,7 @@ Server bandwidth (Mib/s): 166854.8583984375`
         const nbhours: number = Number(parse.flags.nbhours)
         const nblisteners: number = Number(parse.flags.nblisteners)
 
-        const result = nbdays * nbhours * 3600 * bitrate * 1000 / 8 * nblisteners / 1024 / 1024
+        const result = 28125 * nbdays * nbhours * bitrate * nblisteners / 65536
 
         const output = `Number of listeners: ${nblisteners}
 Bitrate (kb/s): ${bitrate}

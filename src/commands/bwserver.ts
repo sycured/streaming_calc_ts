@@ -27,7 +27,7 @@ Server bandwidth (Mib/s): 15820.3125`
         const bitrate: number = Number(parse.flags.bitrate) ?? 0
         const nblisteners: number = Number(parse.flags.nblisteners) ?? 0
 
-        const result: number = nblisteners * bitrate * 1000 / 1024
+        const result: number = 125 * nblisteners * bitrate / 128
 
         const output: string = `Number of listeners: ${nblisteners}
 Bitrate (kb/s): ${bitrate}
